@@ -2,6 +2,10 @@ html,body {
     margin:0;
     padding:0;
 }
+body {
+ background-image: url("paper.gif");
+ background-color: #cccccc;
+}
 pre, code, kbd, samp {
     padding: 10px;
     font-family: "font-family you want to use";

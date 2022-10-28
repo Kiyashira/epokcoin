@@ -135,6 +135,13 @@ var app = new Vue({
                 count: 0,
                 price: 10000000000000.0,
                 auto_coins: 500000.0
+            },
+      {
+                id: 15,
+                text: 'Forged prep book signature',
+                count: 0,
+                price: 1000000000000000,
+                auto_coins: 1000000.0,
             }
 		],
 		course: {

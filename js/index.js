@@ -137,10 +137,10 @@ var app = new Vue({
                 auto_coins: 500000.0
             },
       {
-                id: 15,
+                id: 16,
                 text: 'Forged prep book signature',
                 count: 0,
-                price: 1000000000000000,
+                price: 10000000000000000.0,
                 auto_coins: 1000000.0,
             }
 		],
@@ -151,7 +151,7 @@ var app = new Vue({
 		lang: {
 				name: 'EpokCoin',
 				shop: 'Store',
-				money: 'Coins',
+				money: 'Epox',
 				per_sec: 'sec.',
 				message: 'Message',
 				info: 'Info',
@@ -209,7 +209,7 @@ var app = new Vue({
 		},
 		reduce_num: (number, s = 1) => {
 		    if (number > 1000) {
-			    let count = ["", "thou", "mill", "bill", "tril", "quad", "quin", "sext", "sept", "octi", "quin", "deci", "ande", "duod", "tred", "quat", "quin", "seks", "sept", "octo", "newm", "vigi", "anvi", "dovi", "trev", "quat", "quin", "sexv", "sept", "octo", "newm", "trig", "antr", ];
+			    let count = ["", "thou", "mill", "bill", "tril", "quad", "quin", "sext", "sept", "octi", "quin", "deci", "ande", "duod", "tred", "quat", "quin", "seks", "sept", "octo", "newm", "vigi", "anvi", "dovi", "trev", "quat", "quin", "sexv", "sept", "octo", "newm", "trig", "antr", "susul", "uwull", "amogus", "krilli", "mincill", "yo sup my g", "tika","yolo" ];
 			    let i = 0;
 			    while (Math.abs(number) >= 1000) {
 			        number = number/ 1000;

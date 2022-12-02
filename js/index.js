@@ -142,7 +142,23 @@ var app = new Vue({
                 count: 0,
                 price: 10000000000000000.0,
                 auto_coins: 1000000.0,
-            }
+            },
+       {
+                id: 17,
+                text: 'Music lesson during detention',
+                count: 0,
+                price: 10000000000000000000000.0,
+                auto_coins: 5000000000.0
+            },
+      {
+                id: 18,
+                text: 'White van',
+                count: 0,
+                price: 100000000000000000000000000.0,
+                auto_coins: 500000000000000.0
+            },
+      
+  
 		],
 		course: {
 			rub: 0,
